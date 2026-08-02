@@ -1,0 +1,91 @@
+:root {
+  --main-color: #fff;
+  --button-color: #ff4e50;
+  --text-color: #333;
+  --lucas-color: #ffa507;
+  --heather-color: #1cd7ad;
+  --bradley-color: #4e73db;
+}
+
+.container {
+  max-width: 1200px;
+  width: 480px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: solid red;
+}
+
+header {
+  padding: 19px 0 138px;
+  background-image: url(../header.png);
+  margin: 0 auto;
+}
+
+.header-log {
+  color: var(--main-color);
+  font-size: 13.986px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: transparent;
+}
+
+.header-sing {
+  color: var(--main-color);
+  font-size: 13.986px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: transparent;
+  border: 2px solid var(--main-color);
+  width: 89.9px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+}
+
+.btn-wrap {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 113px 0;
+  justify-content: center;
+}
+
+.header-subtitle {
+  color: var(--main-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.header-title {
+  color: var(--main-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30.041px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.header-text {
+  color: var(--main-color);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18.025px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
